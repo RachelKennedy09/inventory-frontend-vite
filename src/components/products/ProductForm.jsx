@@ -6,7 +6,7 @@ import {
   Typography,
   CircularProgress
 } from '@mui/material';
-import { createProduct, updateProduct } from '../../api/productApi';
+import { createProduct, updateProduct } from '../api/productApi';
 import { useProducts } from '../../contexts/ProductContext';
 
 export default function ProductForm({ product, onClose }) {
